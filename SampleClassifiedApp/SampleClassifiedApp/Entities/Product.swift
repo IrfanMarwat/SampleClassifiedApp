@@ -52,15 +52,4 @@ class Product: NSObject, Codable {
         self.imageUrl = imageUrls
         self.thumbnailUrls = thumnailUrls
     }
-    
-    static var date: Date {
-        let dateFormatterGet = DateFormatter()
-        dateFormatterGet.dateFormat = "dd-MMM-yy hh.mm.ss.nnnnnnnnn a"
-        
-        if let date = dateFormatterGet.date(from: "22-Mar-99 05.06.07.000000888 AM") {
-            return date
-        } else {
-           return Date()
-        }
-    }
 }

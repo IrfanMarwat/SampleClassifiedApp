@@ -24,9 +24,7 @@ class ProductListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print(Product.date)
-        
+                
         let presenter = ProductListPresenter(viewController: self)
         interactor = ProductListInteractor(presenter: presenter)
         
