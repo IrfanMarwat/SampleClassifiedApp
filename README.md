@@ -6,6 +6,7 @@ The only third party dependency that is used in the project is KingFisher https:
 This library is included in the project using CocoaPods and is used for loading images and also for caching images.
 
 Product List Module is implemented using Swift
+
 Product Detail Module is implmented using Objective-C
 
 Open 
