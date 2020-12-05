@@ -1,0 +1,6 @@
+framework module Pods_SampleClassifiedApp_SampleClassifiedAppUITests {
+  umbrella header "Pods-SampleClassifiedApp-SampleClassifiedAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
